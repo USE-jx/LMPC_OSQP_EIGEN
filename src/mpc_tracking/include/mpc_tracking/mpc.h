@@ -4,13 +4,11 @@
 #include <vector>
 #include <Eigen/Dense>
 #include "tf2/utils.h"
-#include <casadi/casadi.hpp>
 #include <iostream>
 #include <chrono>
 #include "OsqpEigen/OsqpEigen.h"
 
 using namespace std;
-using namespace casadi;
 
 class Mpc
 {
