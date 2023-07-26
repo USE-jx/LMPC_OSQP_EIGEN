@@ -1,6 +1,8 @@
 #  small car
 
 运行效果见B站：https://www.bilibili.com/video/BV1wh4y1j7LD/?spm_id_from=333.999.0.0&vd_source=62bfb7720b0b2f9941f7f34210ba6a18
+## 求解器
+需要安装OSQP，OSQP-Eigen，不难，可自行找博客安装。
 
 ## packages介绍
 
