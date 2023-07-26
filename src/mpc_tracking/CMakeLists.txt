@@ -12,11 +12,8 @@ find_package(catkin REQUIRED COMPONENTS
   std_msgs
   tf2
   visualization_msgs
-  plan_env
-  path_searching
   bspline
   bspline_opt
-  traj_utils
   quadrotor_msgs
   message_generation
 )
@@ -92,6 +89,6 @@ link_directories(/usr/local/lib)
 ## Specify libraries to link a library or executable target against
  target_link_libraries(${PROJECT_NAME}_node
    ${catkin_LIBRARIES}
-   dw
+   #dw
    OsqpEigen::OsqpEigen
  )
